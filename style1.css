@@ -1,0 +1,24 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px; 
+    border: 1px solid blue;
+    background-color: lightblue;;
+  }
+  
+  .item {
+    background-color: lightblue;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  /* @media (max-width: 768px) {
+    table {
+        font-size: 0.9em;
+    }
+
+    th, td {
+        padding: 12px 15px;
+    }
+} */
+
+  
